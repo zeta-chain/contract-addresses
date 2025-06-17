@@ -1,7 +1,7 @@
 {
   "name": "@zetachain/contract-addresses",
   "private": false,
-  "version": "0.0.0-set-on-publish",
+  "version": "1.0.0",
   "description": "ZetaChain contracts registry",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,8 +13,6 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "fetch": "npm run build && npm start",
-    "fetch:testnet": "npm run build && npm start -- --network testnet",
-    "fetch:mainnet": "npm run build && npm start -- --network mainnet",
     "prepublishOnly": "npm run build"
   },
   "keywords": [],

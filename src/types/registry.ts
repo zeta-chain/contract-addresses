@@ -7,7 +7,7 @@ export interface ChainInfo {
 
 export interface ContractInfo {
     active: boolean;
-    addressBytes: string;
+    address: string;
     contractType: string;
     chainId: number;
 }
@@ -22,14 +22,19 @@ export interface ZRC20TokenInfo {
     decimals: number;
 }
 
-export interface RegistryData {
-    network: string;
-    chains: ChainInfo[];
+export interface ChainData {
+    chainInfo: ChainInfo;
     contracts: ContractInfo[];
     zrc20Tokens: ZRC20TokenInfo[];
 }
 
-export interface RegistryExport {
-    testnet?: RegistryData;
-    mainnet?: RegistryData;
+export interface AddressesData {
+    [chainId: string]: ChainData;
+}
+
+export interface NetworkRegistryData {
+    network: string;
+    chains: ChainInfo[];
+    contracts: ContractInfo[];
+    zrc20Tokens: ZRC20TokenInfo[];
 }
