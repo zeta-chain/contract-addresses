@@ -38,7 +38,13 @@ jobs:
           npm version $VERSION --no-git-tag-version
           
           npm run build
-          npm publish --access public
+          if npm publish --access public 2>&1 | tee publish.log; then
+            echo "Published successfully"
+          else
+            echo "Publish failed, checking if it's a first-time publish issue..."
+            cat publish.log
+            exit 1
+          fi
           
           git config user.name "github-actions"
           git config user.email "actions@github.com"
