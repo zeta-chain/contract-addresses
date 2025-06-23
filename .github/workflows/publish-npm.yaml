@@ -38,13 +38,11 @@ jobs:
           npm version $VERSION --no-git-tag-version
           
           npm run build
-          if npm publish --access public 2>&1 | tee publish.log; then
-            echo "Published successfully"
-          else
-            echo "Publish failed, checking if it's a first-time publish issue..."
-            cat publish.log
-            exit 1
-          fi
+          
+          echo "Checking npm auth status..."
+          npm whoami || echo "Not authenticated"
+          
+          npm publish --access public --registry https://registry.npmjs.org/
           
           git config user.name "github-actions"
           git config user.email "actions@github.com"
