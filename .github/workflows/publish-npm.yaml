@@ -45,4 +45,5 @@ jobs:
           git add .
           git commit -m "Update addresses v$VERSION"
           git push
-      
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
