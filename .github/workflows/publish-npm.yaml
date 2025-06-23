@@ -38,11 +38,7 @@ jobs:
           npm version $VERSION --no-git-tag-version
           
           npm run build
-          
-          echo "Checking npm auth status..."
-          npm whoami || echo "Not authenticated"
-          
-          npm publish --access public --registry https://registry.npmjs.org/
+          npm publish --access public
           
           git config user.name "github-actions"
           git config user.email "actions@github.com"
