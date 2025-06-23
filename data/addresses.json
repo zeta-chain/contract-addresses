@@ -197,7 +197,16 @@
         "address": "0x48f80608B672DC30DC7e3dbBd0343c5F02C738Eb",
         "symbol": "BNB.BSC",
         "originChainId": 56,
-        "originAddress": "0x0000000000000000000000000000000000000000",
+        "originAddress": "0x0000000000000000000000000000000000003078",
+        "coinType": "gas",
+        "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0x48f80608B672DC30DC7e3dbBd0343c5F02C738Eb",
+        "symbol": "BNB.BSC",
+        "originChainId": 56,
+        "originAddress": "0x0000000000000000000000000000000000003078",
         "coinType": "gas",
         "decimals": 18
       }
@@ -260,7 +269,16 @@
         "address": "0xfC9201f4116aE6b054722E10b98D904829b469c3",
         "symbol": "USDC.POL",
         "originChainId": 137,
-        "originAddress": "0x0000000000000000000000000000000000000000",
+        "originAddress": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+        "coinType": "erc20",
+        "decimals": 6
+      },
+      {
+        "active": true,
+        "address": "0xfC9201f4116aE6b054722E10b98D904829b469c3",
+        "symbol": "USDC.POL",
+        "originChainId": 137,
+        "originAddress": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
         "coinType": "erc20",
         "decimals": 6
       }
@@ -290,6 +308,33 @@
         "originAddress": "",
         "coinType": "gas",
         "decimals": 9
+      },
+      {
+        "active": true,
+        "address": "0xEe9CC614D03e7Dbe994b514079f4914a605B4719",
+        "symbol": "USDT.SOL",
+        "originChainId": 900,
+        "originAddress": "Es9vFFzaCERamJfrF4H2FYD4KCoNkY11BcCe8BenwNYB",
+        "coinType": "erc20",
+        "decimals": 6
+      },
+      {
+        "active": true,
+        "address": "0x54Bf2B1E91FCb56853097BD2545750d218E245e1",
+        "symbol": "CBBTC.SOL",
+        "originChainId": 900,
+        "originAddress": "cbbtcf3aa214xXHbiACQwf4122FBYbraDeiFqgw4iViJ",
+        "coinType": "erc20",
+        "decimals": 8
+      },
+      {
+        "active": true,
+        "address": "0x8344d6f84d26f998fa070BbEA6D2E15E359e2641",
+        "symbol": "USDC.SOL",
+        "originChainId": 900,
+        "originAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v#",
+        "coinType": "erc20",
+        "decimals": 6
       }
     ]
   },
@@ -449,15 +494,6 @@
       },
       {
         "active": true,
-        "address": "0xa52Ad01A1d62b408fFe06C2467439251da61E4a9",
-        "symbol": "USDC.AVAX",
-        "originChainId": 8453,
-        "originAddress": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
-        "coinType": "erc20",
-        "decimals": 6
-      },
-      {
-        "active": true,
         "address": "0xE80e3e8Ac1C19c744d4c2147172489BEAF23E3C5",
         "symbol": "CBBTC.BASE",
         "originChainId": 8453,
@@ -495,7 +531,7 @@
         "symbol": "USDC.ARB",
         "originChainId": 42161,
         "originAddress": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
-        "coinType": "zrc20",
+        "coinType": "erc20",
         "decimals": 6
       },
       {
@@ -515,6 +551,15 @@
         "originAddress": "0x0000000000000000000000000000000000000000",
         "coinType": "gas",
         "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0x0327f0660525b15Cdb8f1f5FBF0dD7Cd5Ba182aD",
+        "symbol": "USDC.ARB",
+        "originChainId": 42161,
+        "originAddress": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "coinType": "erc20",
+        "decimals": 6
       }
     ]
   },
@@ -551,12 +596,30 @@
       },
       {
         "active": true,
+        "address": "0xa52Ad01A1d62b408fFe06C2467439251da61E4a9",
+        "symbol": "USDC.AVAX",
+        "originChainId": 43114,
+        "originAddress": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+        "coinType": "erc20",
+        "decimals": 6
+      },
+      {
+        "active": true,
         "address": "0xE8d7796535F1cd63F0fe8D631E68eACe6839869B",
         "symbol": "AVAX.AVAX",
         "originChainId": 43114,
         "originAddress": "0x0000000000000000000000000000000000000000",
         "coinType": "gas",
         "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0xa52Ad01A1d62b408fFe06C2467439251da61E4a9",
+        "symbol": "USDC.AVAX",
+        "originChainId": 43114,
+        "originAddress": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+        "coinType": "erc20",
+        "decimals": 6
       }
     ]
   }
