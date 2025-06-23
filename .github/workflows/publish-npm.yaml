@@ -46,4 +46,4 @@ jobs:
           git commit -m "Update addresses v$VERSION"
           git push
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITGUARDIAN_API_KEY }}
