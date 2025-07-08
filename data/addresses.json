@@ -1,0 +1,626 @@
+{
+  "1": {
+    "chainInfo": {
+      "active": true,
+      "chainId": 1,
+      "gasZRC20": "0xd97B1de3619ed2c6BEb3860147E30cA8A7dC9891",
+      "registry": "0x"
+    },
+    "contracts": [
+      {
+        "active": true,
+        "address": "0x70e967acfcc17c3941e87562161406d41676fd83",
+        "contractType": "tss",
+        "chainId": 1
+      },
+      {
+        "active": true,
+        "address": "0x000007cf399229b2f5a4d043f20e90c9c98b7c6a",
+        "contractType": "connector",
+        "chainId": 1
+      },
+      {
+        "active": true,
+        "address": "0x0bad40d9e9c369f2223c835e108f43a45fd223b5",
+        "contractType": "erc20Custody",
+        "chainId": 1
+      },
+      {
+        "active": true,
+        "address": "0x48b9aacc350b20147001f88821d31731ba4c30ed",
+        "contractType": "gateway",
+        "chainId": 1
+      },
+      {
+        "active": true,
+        "address": "0xf091867ec603a6628ed83d274e835539d82e9cc8",
+        "contractType": "zetaToken",
+        "chainId": 1
+      }
+    ],
+    "zrc20Tokens": [
+      {
+        "active": true,
+        "address": "0x0cbe0dF132a6c6B4a2974Fa1b7Fb953CF0Cc798a",
+        "symbol": "USDC.ETH",
+        "originChainId": 1,
+        "originAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "coinType": "erc20",
+        "decimals": 6
+      },
+      {
+        "active": true,
+        "address": "0x236b0DE675cC8F46AE186897fCCeFe3370C9eDeD",
+        "symbol": "PEPE.ETH",
+        "originChainId": 1,
+        "originAddress": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+        "coinType": "erc20",
+        "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0x3e128c169564DD527C8e9bd85124BF6A890E5a5f",
+        "symbol": "CBBTC.ETH",
+        "originChainId": 1,
+        "originAddress": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+        "coinType": "erc20",
+        "decimals": 8
+      },
+      {
+        "active": true,
+        "address": "0x777915D031d1e8144c90D025C594b3b8Bf07a08d",
+        "symbol": "SHIB.ETH",
+        "originChainId": 1,
+        "originAddress": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+        "coinType": "erc20",
+        "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0x7c8dDa80bbBE1254a7aACf3219EBe1481c6E01d7",
+        "symbol": "USDT.ETH",
+        "originChainId": 1,
+        "originAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "coinType": "erc20",
+        "decimals": 6
+      },
+      {
+        "active": true,
+        "address": "0xcC683A782f4B30c138787CB5576a86AF66fdc31d",
+        "symbol": "DAI.ETH",
+        "originChainId": 1,
+        "originAddress": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "coinType": "erc20",
+        "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0xd0eFed75622e7AA4555EE44F296dA3744E3ceE19",
+        "symbol": "WBTC.ETH",
+        "originChainId": 1,
+        "originAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "coinType": "erc20",
+        "decimals": 8
+      },
+      {
+        "active": true,
+        "address": "0xd97B1de3619ed2c6BEb3860147E30cA8A7dC9891",
+        "symbol": "ETH.ETH",
+        "originChainId": 1,
+        "originAddress": "0x0000000000000000000000000000000000000000",
+        "coinType": "gas",
+        "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0xe1A4f44b12eb72DC6da556Be9Ed1185141d7C23c",
+        "symbol": "NPC.ETH",
+        "originChainId": 1,
+        "originAddress": "0x8ed97a637a790be1feff5e888d43629dc05408f6",
+        "coinType": "erc20",
+        "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0xe573a6e11f8506620F123DBF930222163D46BCB6",
+        "symbol": "ULTI.ETH",
+        "originChainId": 1,
+        "originAddress": "0x0e7779e698052f8fe56c415c3818fcf89de9ac6d",
+        "coinType": "erc20",
+        "decimals": 18
+      }
+    ]
+  },
+  "56": {
+    "chainInfo": {
+      "active": true,
+      "chainId": 56,
+      "gasZRC20": "0x48f80608B672DC30DC7e3dbBd0343c5F02C738Eb",
+      "registry": "0x0000000000000000000000009f29b64f7361ba3c7cf7176235c3eec9800426ce"
+    },
+    "contracts": [
+      {
+        "active": true,
+        "address": "0x000063a6e758d9e2f438d430108377564cf4077d",
+        "contractType": "connector",
+        "chainId": 56
+      },
+      {
+        "active": true,
+        "address": "0x0bad40d9e9c369f2223c835e108f43a45fd223b5",
+        "contractType": "erc20Custody",
+        "chainId": 56
+      },
+      {
+        "active": true,
+        "address": "0x48b9aacc350b20147001f88821d31731ba4c30ed",
+        "contractType": "gateway",
+        "chainId": 56
+      },
+      {
+        "active": true,
+        "address": "0x0000028a2eb8346cd5c0267856ab7594b7a55308",
+        "contractType": "zetaToken",
+        "chainId": 56
+      }
+    ],
+    "zrc20Tokens": [
+      {
+        "active": true,
+        "address": "0x05BA149A7bd6dC1F937fA9046A9e05C05f3b18b0",
+        "symbol": "USDC.BSC",
+        "originChainId": 56,
+        "originAddress": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "coinType": "erc20",
+        "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0x91d4F0D54090Df2D81e834c3c8CE71C6c865e79F",
+        "symbol": "USDT.BSC",
+        "originChainId": 56,
+        "originAddress": "0x55d398326f99059ff775485246999027b3197955",
+        "coinType": "erc20",
+        "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0xD10932EB3616a937bd4a2652c87E9FeBbAce53e5",
+        "symbol": "ULTI.BSC",
+        "originChainId": 56,
+        "originAddress": "0x0e7779e698052f8fe56c415c3818fcf89de9ac6d",
+        "coinType": "erc20",
+        "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0x48f80608B672DC30DC7e3dbBd0343c5F02C738Eb",
+        "symbol": "BNB.BSC",
+        "originChainId": 56,
+        "originAddress": "0x0000000000000000000000000000000000003078",
+        "coinType": "gas",
+        "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0x48f80608B672DC30DC7e3dbBd0343c5F02C738Eb",
+        "symbol": "BNB.BSC",
+        "originChainId": 56,
+        "originAddress": "0x0000000000000000000000000000000000003078",
+        "coinType": "gas",
+        "decimals": 18
+      }
+    ]
+  },
+  "137": {
+    "chainInfo": {
+      "active": true,
+      "chainId": 137,
+      "gasZRC20": "0xADF73ebA3Ebaa7254E859549A44c74eF7cff7501",
+      "registry": "0x"
+    },
+    "contracts": [
+      {
+        "active": true,
+        "address": "0x73ce2544d30a71d833c70d418fb5ddf7a4a75455",
+        "contractType": "connector",
+        "chainId": 137
+      },
+      {
+        "active": true,
+        "address": "0x0bad40d9e9c369f2223c835e108f43a45fd223b5",
+        "contractType": "erc20Custody",
+        "chainId": 137
+      },
+      {
+        "active": true,
+        "address": "0x48b9aacc350b20147001f88821d31731ba4c30ed",
+        "contractType": "gateway",
+        "chainId": 137
+      },
+      {
+        "active": true,
+        "address": "0x2eff750c9d770babe6dbe84d05e40e4c65d7938d",
+        "contractType": "zetaToken",
+        "chainId": 137
+      }
+    ],
+    "zrc20Tokens": [
+      {
+        "active": true,
+        "address": "0xADF73ebA3Ebaa7254E859549A44c74eF7cff7501",
+        "symbol": "POL.POLYGON",
+        "originChainId": 137,
+        "originAddress": "0x0000000000000000000000000000000000000000",
+        "coinType": "gas",
+        "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0xdbfF6471a79E5374d771922F2194eccc42210B9F",
+        "symbol": "USDT.POL",
+        "originChainId": 137,
+        "originAddress": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "coinType": "erc20",
+        "decimals": 6
+      },
+      {
+        "active": true,
+        "address": "0xfC9201f4116aE6b054722E10b98D904829b469c3",
+        "symbol": "USDC.POL",
+        "originChainId": 137,
+        "originAddress": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+        "coinType": "erc20",
+        "decimals": 6
+      },
+      {
+        "active": true,
+        "address": "0xfC9201f4116aE6b054722E10b98D904829b469c3",
+        "symbol": "USDC.POL",
+        "originChainId": 137,
+        "originAddress": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+        "coinType": "erc20",
+        "decimals": 6
+      }
+    ]
+  },
+  "900": {
+    "chainInfo": {
+      "active": true,
+      "chainId": 900,
+      "gasZRC20": "0x4bC32034caCcc9B7e02536945eDbC286bACbA073",
+      "registry": "0x"
+    },
+    "contracts": [
+      {
+        "active": true,
+        "address": "ZETAjseVjuFsxdRxo6MmTCvqFwb3ZHUx56Co3vCmGis",
+        "contractType": "gateway",
+        "chainId": 900
+      }
+    ],
+    "zrc20Tokens": [
+      {
+        "active": true,
+        "address": "0x4bC32034caCcc9B7e02536945eDbC286bACbA073",
+        "symbol": "SOL.SOL",
+        "originChainId": 900,
+        "originAddress": "",
+        "coinType": "gas",
+        "decimals": 9
+      },
+      {
+        "active": true,
+        "address": "0xEe9CC614D03e7Dbe994b514079f4914a605B4719",
+        "symbol": "USDT.SOL",
+        "originChainId": 900,
+        "originAddress": "Es9vFFzaCERamJfrF4H2FYD4KCoNkY11BcCe8BenwNYB",
+        "coinType": "erc20",
+        "decimals": 6
+      },
+      {
+        "active": true,
+        "address": "0x54Bf2B1E91FCb56853097BD2545750d218E245e1",
+        "symbol": "CBBTC.SOL",
+        "originChainId": 900,
+        "originAddress": "cbbtcf3aa214xXHbiACQwf4122FBYbraDeiFqgw4iViJ",
+        "coinType": "erc20",
+        "decimals": 8
+      },
+      {
+        "active": true,
+        "address": "0x8344d6f84d26f998fa070BbEA6D2E15E359e2641",
+        "symbol": "USDC.SOL",
+        "originChainId": 900,
+        "originAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v#",
+        "coinType": "erc20",
+        "decimals": 6
+      }
+    ]
+  },
+  "7000": {
+    "chainInfo": {
+      "active": true,
+      "chainId": 7000,
+      "gasZRC20": "0x0000000000000000000000000000000000000000",
+      "registry": "0x7cce3eb018bf23e1fe2a32692f2c77592d110394"
+    },
+    "contracts": [
+      {
+        "active": true,
+        "address": "0x239e96c8f17c85c30100ac26f635ea15f23e9c67",
+        "contractType": "connector",
+        "chainId": 7000
+      },
+      {
+        "active": true,
+        "address": "0x735b14bb79463307aacbed86daf3322b1e6226ab",
+        "contractType": "fungibleModule",
+        "chainId": 7000
+      },
+      {
+        "active": true,
+        "address": "0xfedd7a6e3ef1cc470fbfbf955a22d793ddc0f44e",
+        "contractType": "gateway",
+        "chainId": 7000
+      },
+      {
+        "active": true,
+        "address": "0x91d18e54daf4f677cb28167158d6dd21f6ab3921",
+        "contractType": "systemContract",
+        "chainId": 7000
+      },
+      {
+        "active": true,
+        "address": "0x5f0b1a82749cb4e2278ec87f8bf6b618dc71a8bf",
+        "contractType": "zetaToken",
+        "chainId": 7000
+      },
+      {
+        "active": true,
+        "address": "0x9fd96203f7b22bcf72d9dcb40ff98302376ce09c",
+        "contractType": "uniswapV2Factory",
+        "chainId": 7000
+      },
+      {
+        "active": true,
+        "address": "0x2ca7d64a7efe2d62a725e2b35cf7230d6677ffee",
+        "contractType": "uniswapV2Router02",
+        "chainId": 7000
+      },
+      {
+        "active": true,
+        "address": "0x67aa6b2b715937edc1eb4d3b7b5d5dcd1fd93e8c",
+        "contractType": "uniswapV3Factory",
+        "chainId": 7000
+      },
+      {
+        "active": true,
+        "address": "0x9b30cfbacd3504252f82263f72d6acf62bf733c2",
+        "contractType": "uniswapV3Router",
+        "chainId": 7000
+      }
+    ],
+    "zrc20Tokens": []
+  },
+  "7001": {
+    "chainInfo": {
+      "active": true,
+      "chainId": 7001,
+      "gasZRC20": "0x0000000000000000000000000000000000000000",
+      "registry": "0x7cce3eb018bf23e1fe2a32692f2c77592d110394"
+    },
+    "contracts": [],
+    "zrc20Tokens": []
+  },
+  "8332": {
+    "chainInfo": {
+      "active": true,
+      "chainId": 8332,
+      "gasZRC20": "0x13A0c5930C028511Dc02665E7285134B6d11A5f4",
+      "registry": "0x"
+    },
+    "contracts": [
+      {
+        "active": true,
+        "address": "bc1qm24wp577nk8aacckv8np465z3dvmu7ry45el6y",
+        "contractType": "tss",
+        "chainId": 8332
+      }
+    ],
+    "zrc20Tokens": [
+      {
+        "active": true,
+        "address": "0x13A0c5930C028511Dc02665E7285134B6d11A5f4",
+        "symbol": "BTC.BTC",
+        "originChainId": 8332,
+        "originAddress": "",
+        "coinType": "gas",
+        "decimals": 8
+      }
+    ]
+  },
+  "8453": {
+    "chainInfo": {
+      "active": true,
+      "chainId": 8453,
+      "gasZRC20": "0x1de70f3e971B62A0707dA18100392af14f7fB677",
+      "registry": "0x"
+    },
+    "contracts": [
+      {
+        "active": true,
+        "address": "0xfc6a3d4d373b522b182e8cadd66ecf140a313e2f",
+        "contractType": "connector",
+        "chainId": 8453
+      },
+      {
+        "active": true,
+        "address": "0x0bad40d9e9c369f2223c835e108f43a45fd223b5",
+        "contractType": "erc20Custody",
+        "chainId": 8453
+      },
+      {
+        "active": true,
+        "address": "0x48b9aacc350b20147001f88821d31731ba4c30ed",
+        "contractType": "gateway",
+        "chainId": 8453
+      },
+      {
+        "active": true,
+        "address": "0x7fb8e2ae4a5923bbd8e1513945914b5ab69cda2a",
+        "contractType": "zetaToken",
+        "chainId": 8453
+      }
+    ],
+    "zrc20Tokens": [
+      {
+        "active": true,
+        "address": "0x1de70f3e971B62A0707dA18100392af14f7fB677",
+        "symbol": "ETH.BASE",
+        "originChainId": 8453,
+        "originAddress": "0x0000000000000000000000000000000000000000",
+        "coinType": "gas",
+        "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0x96152E6180E085FA57c7708e18AF8F05e37B479D",
+        "symbol": "USDC.BASE",
+        "originChainId": 8453,
+        "originAddress": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "coinType": "erc20",
+        "decimals": 6
+      },
+      {
+        "active": true,
+        "address": "0xE80e3e8Ac1C19c744d4c2147172489BEAF23E3C5",
+        "symbol": "CBBTC.BASE",
+        "originChainId": 8453,
+        "originAddress": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+        "coinType": "erc20",
+        "decimals": 8
+      }
+    ]
+  },
+  "42161": {
+    "chainInfo": {
+      "active": true,
+      "chainId": 42161,
+      "gasZRC20": "0xA614Aebf7924A3Eb4D066aDCA5595E4980407f1d",
+      "registry": "0x"
+    },
+    "contracts": [
+      {
+        "active": true,
+        "address": "0xece33274237e6422f2668ed7dee5901b16336aa0",
+        "contractType": "erc20Custody",
+        "chainId": 42161
+      },
+      {
+        "active": true,
+        "address": "0x1c53e188bc2e471f9d4a4762cff843d32c2c8549",
+        "contractType": "gateway",
+        "chainId": 42161
+      }
+    ],
+    "zrc20Tokens": [
+      {
+        "active": true,
+        "address": "0x0327f0660525b15Cdb8f1f5FBF0dD7Cd5Ba182aD",
+        "symbol": "USDC.ARB",
+        "originChainId": 42161,
+        "originAddress": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "coinType": "erc20",
+        "decimals": 6
+      },
+      {
+        "active": true,
+        "address": "0x0ca762FA958194795320635c11fF0C45C6412958",
+        "symbol": "USDT.ARB",
+        "originChainId": 42161,
+        "originAddress": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+        "coinType": "erc20",
+        "decimals": 6
+      },
+      {
+        "active": true,
+        "address": "0xA614Aebf7924A3Eb4D066aDCA5595E4980407f1d",
+        "symbol": "ETH.ARB",
+        "originChainId": 42161,
+        "originAddress": "0x0000000000000000000000000000000000000000",
+        "coinType": "gas",
+        "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0x0327f0660525b15Cdb8f1f5FBF0dD7Cd5Ba182aD",
+        "symbol": "USDC.ARB",
+        "originChainId": 42161,
+        "originAddress": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "coinType": "erc20",
+        "decimals": 6
+      }
+    ]
+  },
+  "43114": {
+    "chainInfo": {
+      "active": true,
+      "chainId": 43114,
+      "gasZRC20": "0xE8d7796535F1cd63F0fe8D631E68eACe6839869B",
+      "registry": "0x"
+    },
+    "contracts": [
+      {
+        "active": true,
+        "address": "0xece33274237e6422f2668ed7dee5901b16336aa0",
+        "contractType": "erc20Custody",
+        "chainId": 43114
+      },
+      {
+        "active": true,
+        "address": "0x1c53e188bc2e471f9d4a4762cff843d32c2c8549",
+        "contractType": "gateway",
+        "chainId": 43114
+      }
+    ],
+    "zrc20Tokens": [
+      {
+        "active": true,
+        "address": "0x2Db395976CDb9eeFCc8920F4F2f0736f1D575794",
+        "symbol": "USDT.AVAX",
+        "originChainId": 43114,
+        "originAddress": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+        "coinType": "erc20",
+        "decimals": 6
+      },
+      {
+        "active": true,
+        "address": "0xa52Ad01A1d62b408fFe06C2467439251da61E4a9",
+        "symbol": "USDC.AVAX",
+        "originChainId": 43114,
+        "originAddress": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+        "coinType": "erc20",
+        "decimals": 6
+      },
+      {
+        "active": true,
+        "address": "0xE8d7796535F1cd63F0fe8D631E68eACe6839869B",
+        "symbol": "AVAX.AVAX",
+        "originChainId": 43114,
+        "originAddress": "0x0000000000000000000000000000000000000000",
+        "coinType": "gas",
+        "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0xa52Ad01A1d62b408fFe06C2467439251da61E4a9",
+        "symbol": "USDC.AVAX",
+        "originChainId": 43114,
+        "originAddress": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+        "coinType": "erc20",
+        "decimals": 6
+      }
+    ]
+  }
+}
