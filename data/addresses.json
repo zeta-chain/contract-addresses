@@ -276,7 +276,7 @@
     "contracts": [
       {
         "active": true,
-        "address": "0xba51550593ba92ff43376d0a6cc26a5ca226f9bd",
+        "address": "0x6b2fe12c605d64e14ca69f9aba51550593ba92ff43376d0a6cc26a5ca226f9bd",
         "contractType": "gateway",
         "chainId": 103
       }
@@ -287,7 +287,7 @@
         "address": "0x3e128c169564DD527C8e9bd85124BF6A890E5a5f",
         "symbol": "SUI.SUI",
         "originChainId": 103,
-        "originAddress": "0x0000000000000000000000000000000000000000",
+        "originAddress": "",
         "coinType": "gas",
         "decimals": 9
       },
@@ -296,7 +296,7 @@
         "address": "0xE80e3e8Ac1C19c744d4c2147172489BEAF23E3C5",
         "symbol": "USDC.SUI",
         "originChainId": 103,
-        "originAddress": "0x6366323532363231303337626437313137653239",
+        "originAddress": "a1ec7fc00a6f40db9693ad1415d0c193ad3906494428cf252621037bd7117e29",
         "coinType": "erc20",
         "decimals": 6
       }

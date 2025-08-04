@@ -1,7 +1,10 @@
+import { ethers } from "ethers";
+
 export enum ChainType {
   EVM,
   BITCOIN,
   SOLANA,
+  SUI,
 }
 
 export const CHAIN_TYPES: Record<number, ChainType> = {
@@ -15,6 +18,8 @@ export const CHAIN_TYPES: Record<number, ChainType> = {
   7001: ChainType.EVM,
   8332: ChainType.BITCOIN,
   900: ChainType.SOLANA,
+  103: ChainType.SUI,
+  105: ChainType.SUI,
 };
 
 export function getChainType(chainId: number): ChainType {
@@ -104,6 +109,8 @@ export function decodeAddress(addressBytes: string, chainId: number): string {
       return decodeBitcoinAddress(addressBytes);
     case ChainType.SOLANA:
       return decodeSolanaAddress(addressBytes);
+    case ChainType.SUI:
+      return addressBytes;
     default:
       return decodeEvmAddress(addressBytes);
   }
@@ -120,5 +127,9 @@ export function decodeOriginAddress(
   originAddress: string,
   originChainId: number
 ): string {
+  if (getChainType(originChainId) === ChainType.SUI) {
+    return ethers.toUtf8String(originAddress);
+  }
+
   return decodeAddress(originAddress, originChainId);
 }
