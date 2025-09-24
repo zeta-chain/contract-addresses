@@ -1,7 +1,7 @@
 {
   "name": "@zetachain/contract-addresses",
   "private": false,
-  "version": "1.0.20250814023404",
+  "version": "1.0.20250924022714",
   "description": "ZetaChain contracts registry",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

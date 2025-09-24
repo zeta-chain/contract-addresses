@@ -464,6 +464,57 @@
       }
     ]
   },
+  "1001": {
+    "chainInfo": {
+      "active": true,
+      "chainId": 1001,
+      "gasZRC20": "0xe1A4f44b12eb72DC6da556Be9Ed1185141d7C23c",
+      "registry": "0x"
+    },
+    "contracts": [
+      {
+        "active": true,
+        "address": "0x07fe085d0af54eceb1af1cf73bed92afefdb8364",
+        "contractType": "erc20Custody",
+        "chainId": 1001
+      },
+      {
+        "active": true,
+        "address": "0x17c57f0b20ff169f779aceb320c8d7297d8cb1de",
+        "contractType": "gateway",
+        "chainId": 1001
+      }
+    ],
+    "zrc20Tokens": [
+      {
+        "active": true,
+        "address": "0xe1A4f44b12eb72DC6da556Be9Ed1185141d7C23c",
+        "symbol": "KAIA.KAIROS",
+        "originChainId": 1001,
+        "originAddress": "0x0000000000000000000000000000000000000000",
+        "coinType": "gas",
+        "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0xEb646191FcCb5Bfc1e7A121D3847590aAc840a53",
+        "symbol": "TSKRW.KAIROS",
+        "originChainId": 1001,
+        "originAddress": "0x90fdde887468d282090d12208d6e171e1632008c",
+        "coinType": "erc20",
+        "decimals": 6
+      },
+      {
+        "active": true,
+        "address": "0x2Db395976CDb9eeFCc8920F4F2f0736f1D575794",
+        "symbol": "KBKRW.KAIROS",
+        "originChainId": 1001,
+        "originAddress": "0x2254a33ee9f600ed6574faa9ad8ed1dc4a44820e",
+        "coinType": "erc20",
+        "decimals": 6
+      }
+    ]
+  },
   "7000": {
     "chainInfo": {
       "active": true,
@@ -828,6 +879,15 @@
         "originAddress": "0x5425890298aed601595a70ab815c96711a31bc65",
         "coinType": "erc20",
         "decimals": 6
+      },
+      {
+        "active": true,
+        "address": "0xE8d7796535F1cd63F0fe8D631E68eACe6839869B",
+        "symbol": "HanaKRW.FUJI",
+        "originChainId": 43113,
+        "originAddress": "0x6b513b40ebc0b4d7b197730476ed3324346f2822",
+        "coinType": "erc20",
+        "decimals": 6
       }
     ]
   },
@@ -987,6 +1047,15 @@
         "originAddress": "0x0000000000000000000000000000000000000000",
         "coinType": "gas",
         "decimals": 18
+      },
+      {
+        "active": true,
+        "address": "0xd0eFed75622e7AA4555EE44F296dA3744E3ceE19",
+        "symbol": "USDC.BASESEP",
+        "originChainId": 84532,
+        "originAddress": "0x036cbd53842c5426634e7929541ec2318f3dcf7e",
+        "coinType": "erc20",
+        "decimals": 6
       }
     ]
   },
@@ -1027,6 +1096,15 @@
         "symbol": "USDC.ARBSEP",
         "originChainId": 421614,
         "originAddress": "0x75faf114eafb1bdbe2f0316df893fd58ce46aa4d",
+        "coinType": "erc20",
+        "decimals": 6
+      },
+      {
+        "active": true,
+        "address": "0x0ca762FA958194795320635c11fF0C45C6412958",
+        "symbol": "UPKRW.ARBSEP",
+        "originChainId": 421614,
+        "originAddress": "0x6b513b40ebc0b4d7b197730476ed3324346f2822",
         "coinType": "erc20",
         "decimals": 6
       }
