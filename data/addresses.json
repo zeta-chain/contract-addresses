@@ -276,7 +276,13 @@
     "contracts": [
       {
         "active": true,
-        "address": "0xba51550593ba92ff43376d0a6cc26a5ca226f9bd",
+        "address": "0xa20f744ba6a3d8d17f6583fa2f774887c4079700",
+        "contractType": "gateway",
+        "chainId": 103
+      },
+      {
+        "active": true,
+        "address": "0xa20f744ba6a3d8d17f6583fa2f774887c4079700",
         "contractType": "gateway",
         "chainId": 103
       }
@@ -297,6 +303,42 @@
         "symbol": "USDC.SUI",
         "originChainId": 103,
         "originAddress": "0x6366323532363231303337626437313137653239",
+        "coinType": "erc20",
+        "decimals": 6
+      }
+    ]
+  },
+  "105": {
+    "chainInfo": {
+      "active": true,
+      "chainId": 105,
+      "gasZRC20": "0xEb646191FcCb5Bfc1e7A121D3847590aAc840a53",
+      "registry": "0x"
+    },
+    "contracts": [
+      {
+        "active": true,
+        "address": "0x4512329d7340ec23e61f130ebb4d0169ba37e189",
+        "contractType": "gateway",
+        "chainId": 105
+      }
+    ],
+    "zrc20Tokens": [
+      {
+        "active": true,
+        "address": "0xEb646191FcCb5Bfc1e7A121D3847590aAc840a53",
+        "symbol": "SUI.SUI",
+        "originChainId": 105,
+        "originAddress": "0x0000000000000000000000000000000000000000",
+        "coinType": "gas",
+        "decimals": 9
+      },
+      {
+        "active": true,
+        "address": "0xe134d947644F90486C8106Ee528b1CD3e54A385e",
+        "symbol": "USDC.SUI",
+        "originChainId": 105,
+        "originAddress": "0x65326639303065373a3a757364633a3a55534443",
         "coinType": "erc20",
         "decimals": 6
       }
@@ -1107,6 +1149,33 @@
         "originAddress": "0x6b513b40ebc0b4d7b197730476ed3324346f2822",
         "coinType": "erc20",
         "decimals": 6
+      }
+    ]
+  },
+  "2015140": {
+    "chainInfo": {
+      "active": true,
+      "chainId": 2015140,
+      "gasZRC20": "0xD45F47412073b75B7c70728aD9A45Dee0ee01bac",
+      "registry": "0x"
+    },
+    "contracts": [
+      {
+        "active": true,
+        "address": "0xa4fead0c289cc13bd94880419cabf19688647987",
+        "contractType": "gateway",
+        "chainId": 2015140
+      }
+    ],
+    "zrc20Tokens": [
+      {
+        "active": true,
+        "address": "0xD45F47412073b75B7c70728aD9A45Dee0ee01bac",
+        "symbol": "TON.TON",
+        "originChainId": 2015140,
+        "originAddress": "0x0000000000000000000000000000000000000000",
+        "coinType": "gas",
+        "decimals": 9
       }
     ]
   },
